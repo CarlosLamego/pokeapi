@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.searchbar-container {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px
+}
+
+.pokedex h1 {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px
+}
+
+
