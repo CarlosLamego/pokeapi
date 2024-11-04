@@ -6,7 +6,6 @@ const Navbar = () => {
         <nav>
             <img src={logoIcon} alt={'logo icon'}/>
             <button className="theme-btn"> Mudar o Tema </button>
-            <button className="favorite-btn"> 💖 </button>
         </nav>
     )
 }
