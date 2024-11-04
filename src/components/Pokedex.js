@@ -6,7 +6,7 @@ const Pokedex = (props) => {
     return (
         <div className="pokedex">
             <h1>Pokedex</h1>
-            <div className="pokemon-grid"> 
+            <div className="pokedex-grid"> 
                 { pokemons.map((pokemon, index) => {
                     return (
                         <>
