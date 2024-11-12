@@ -1,3 +1,40 @@
+O presente projeto foi feito com muito esforço (realmente foi) e espero que consigam aproveitar.
+
+1. Após o ### `npm start` a página apresentará 10 pokemons, conforme solicitado na quest.
+2. No footer da página há o botão `mostrar mais 10 pokemons`, que como o nome diz, apresenta mais dez pokemons e atualiza o total de páginas/pokemon listado.
+3. Todos os pokemons são clicáveis, quando clicado, abre nova página com os 5 detalhes pedidos: Imagem, nome, movimentos, habilidades e tipo.
+4. Na home, junto a Navbar há o botão para mudança de tema entre claro e escuro, se preferirem, as cores podem ser alteradas no theme-context.js.
+5. Conforme solicitado, tentei utilizar tudo passado no teste técnico: 
+     - A aplicação deverá ser Single Page Application (SPA);
+     - Utilizar React.js para o desenvolvimento da aplicação;
+     - Utilizar Context API para criação do Theme Toggler 
+     - (Alternador entre tema claro e escuro);
+     - Utilizar styled-components para estilização dos componentes;
+     - Utilizar react-router-dom para a navegação entre as páginas;
+6. Criação do README.md
+7. Descrição das funcionalidades, conforme já feito.
+8. Ferramentas utilizadas: 
+    - Re-assisti aulas de react algumas vezes para recapitular informaçãoes;
+    - Chat GPT para dúvidas pontuais;
+    - Vídeos no youtube, principalmente para os passos iniciais e não ultrapassar pontos bases antes da hora;
+    - Meus sonhos 😴 - ótimas ideias vinham nestes momentos
+9. Fiz o projeto na seguinte ordem:
+    - Anotei dados conforme esperava;
+    - Dentro do App anotei as etapas que deveria fazer e montar;
+    - Montei primeiro a estrutura onde iria encaixar o que procurava;
+    - Navbar;
+    - Api.js;
+    - Pokemon.js importando os dados da Api;
+    - Pokedex.js recebendo dados de Pokemon.js;
+    - Searchbar, talvez junto com pokedex, aproveitando os dados da Api;
+    - No App.js, limitei o que quero que apareça na tela e fiz o math.ceil para o número de páginas da Pagination.js;
+    - Criação do Expand;
+    - Muita luta para funcionar os botões de return, inclusive no logo principal;
+    - Muita luta para funcionar a mudança de tema.
+    - README.md
+10. Entre na pasta e `npm start` no terminal
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
