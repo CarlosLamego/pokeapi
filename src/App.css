@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center;       
 }
 
 .App-logo {
@@ -37,6 +37,16 @@
   }
 }
 
+.pokedex-container , .searchbar-container {
+  background-color: #eeeeee;
+}
+
+.pokedex-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 .pokedex-grid {
   display: grid;
   gap: 10px;
@@ -47,12 +57,12 @@
   display: flex;
   border-bottom: 5px;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);  
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  color: black;
 }
 
-.pokemon-card h3{
-  text-transform: capitalize
-  ;
+.pokemon-card h3 {
+  text-transform: capitalize;
 }
 
 .card-body {
@@ -74,15 +84,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
   align-items: center;
 }
 
-.pokemon-type {
+.card-bottom-data {
   display: flex;
 }
 
 .pokemon-type-text {
   margin-right: 10px;
   text-transform: capitalize;
+}
+
+.page-unica {
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 5px;
+}
+
+.parte-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parte-b {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }

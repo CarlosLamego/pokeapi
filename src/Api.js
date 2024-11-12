@@ -6,6 +6,7 @@ export const searchPokemon = async (pokemon) => {
         return await response.json()
     } catch (error) {
         console.log("error: ", error)
+        return null;
     }
 }
 
@@ -17,6 +18,7 @@ export const getPokemons = async (limit = 10, offset = 0) => {
         return await response.json()
     } catch (error) {
         console.log("error: ", error)
+        return { results: [] }
     }
 }
 
@@ -26,5 +28,6 @@ export const getPokemonData = async (url) => {
         return await response.json()
     } catch (error) {
         console.log("error: ", error)
+        return null
     }
 }
